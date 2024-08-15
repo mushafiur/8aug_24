@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+
+    <!-- meta tag -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- meta tag -->
+
+
+    <title>javaScript</title>
+    <link rel="icon" href="images/js.png">
+    
+    <!-- css links -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/media.css">
+    <!-- css links -->
+  </head>
+
+  <!-- body start -->
+  <body>
+
+    <div class="container">
+      <h2>click the button to  on off the bulb</h2>
+      <hr>
+
+      <button type="button" class="btn btn-dark" onclick="bulbOn()">switch on</button>
+      <button type="button" class="btn btn-dark" onclick="bulboff()">switch off</button>
+      <img id="img" src="images/bulboff.gif" alt="">
+
+      
+      <hr>
+      <h2 id="c_text">change the text</h2>
+      <button type="button" class="btn btn-dark" onclick="changeText()">click me</button>
+
+      <hr>
+      <h2>show content</h2>
+      <p id="s_content"></p>
+      <button type="button" class="btn btn-dark" onclick="showContent()">click me</button>
+
+      <hr>
+      <h2>block/none content</h2>
+      <p id="h_content">hello ssb 619</p>
+      <button type="button" class="btn btn-dark" onclick="hideContent()">display none</button>
+      <button type="button" class="btn btn-dark" onclick="blockContent()">display block</button>
+
+      <hr>
+      <h2 id="35px">text size</h2>
+      <button type="button" class="" onclick="textSize()">change the text size</button>
+
+      <hr>
+      <h2 id="color">text color will be green</h2>
+      <button type="button" class="" onclick="textColor()">change the text color</button>
+
+      <hr>
+      <img id="b_icon" src="images/low.png" alt="battery">
+      <hr>
+      <button onclick="chargeBattery()">charger connect</button>
+      <button onclick="mediumBattery()">medium charge</button>
+      <button onclick="highBattery()">high charge</button>
+      <button onclick="fullBattery()">fully charged</button>
+
+
+
+
+    </div>
+
+  <!-- js start -->
+   <script  src="js/bootstrap.bundle.min.js"></script>
+   <script  src="js/script.js"></script>
+  <!-- js end  -->
+
+  </body>
+  <!-- body end -->
+
+</html>
